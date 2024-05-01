@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 200px 200px;
+      gap: 30px;
+    }
+
+    .first {
+      grid-column: span 2;
+    }
+
+    .card {
+      background-color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Grid</h1>
+  <div class="grid-container">
+    <div class="first card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus mollitia, doloremque, cum officiis ad saepe quae voluptas eveniet repudiandae harum repellat. Sit quod consequuntur ducimus libero deserunt sed earum et.</p></div>
+    <div class="card"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut minus itaque modi laudantium in quaerat, magnam est odit, facilis ipsam deserunt ab consequatur! Facere fugit illo aperiam sit provident doloribus?</p></div>
+    <div class="card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde odit nemo sint quod harum similique commodi possimus, nostrum numquam, maxime ratione laboriosam dolor quae porro inventore eaque, vitae consectetur! Iusto.</p></div>
+    <div class="card"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam nostrum totam perferendis eligendi officiis, debitis dicta qui quas id enim autem maxime sed quae, perspiciatis cum provident odio minus magni.</label></p></div>
+    <div class="card"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae quis optio eius architecto aliquam commodi expedita deleniti corporis nesciunt eos ut temporibus, magni voluptatibus non consequatur ratione inventore ab.</p></div>
+  </div>
+
+</body>
+
+</html>
